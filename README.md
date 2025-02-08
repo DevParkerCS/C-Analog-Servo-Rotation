@@ -21,4 +21,11 @@ To download the AVR toolchain, please type the following commands below based on
 
 `sudo apt install gcc-avr binutils-avr avr-libc avrdude`
 
-###
+### Mac
+`brew tap osx-cross/avr`
+
+`brew install avr-gcc avrdude`
+
+## Circuit Diagram
+
+
