@@ -1,5 +1,5 @@
 # C Analog Servo Control
-[Servo Example](/assets/example.mov)
+![Servo Example](/assets/example.mov)
 
 ## Description
 This project demonstrates setting registers and bits by using bitwise operations, using an Analog-to-Digital Converter (ADC), and controlling a servo motor's rotation using Pulse Width Modulation (PWM)
