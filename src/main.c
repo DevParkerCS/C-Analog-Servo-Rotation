@@ -6,12 +6,8 @@
 
 // Setup pins and hardware
 void setup() {
-    // PD2 as input
-    DDRD &= ~(1 << PD2);
     // PC0 as input
     DDRC &= ~(1 << PC0);
-    // Pull-up enabled on PD2
-    PORTD |= (1 << PD2); 
 
     setupTimer1();
     UART_init();

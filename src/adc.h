@@ -1,5 +1,5 @@
-#define START_ROT 500
-#define OPEN_ROT 2500
+#define START_ROT 2000
+#define OPEN_ROT 4000
 #define MIN_ADC_IN 0
 #define MAX_ADC_IN 1023
 
