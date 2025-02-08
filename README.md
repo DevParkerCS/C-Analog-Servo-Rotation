@@ -32,7 +32,7 @@ To download the AVR toolchain, please type the following commands below based on
 
 In the following diagram the main components are an Arduino UNO (ATmega328p), Breadboard, Potentiometer, Micro Servo, 5 Volt Regulator, and 9 volt external power supply.  The 9 volt battery is being used to power the motor as it is not reccomended to power motors directly from the Arduino.  We use a 5 volt regulator to change the 9 volt power supply to a 5 volt power which the servo runs on.  We must ensure there is a common ground between the arduino and the external power supply.  The micro servo is then connected to groud and the 5 volt regulator.  The signal pin on the servo is connected to pin number 9 on the Arduino, or PB1 on the ATmega328p.  We must ensure the pin it is connected to is a PWM pin as this is how we will control the motor.  Available PWM pins on the ATmega328p are PD3, PD5, PD6, PB1, PB2, and PB3.  We then connect the potentiometer to positive and ground.  The Wiper pin is attached to one of the 6 analog input pins.  This allows us to get a value ranging from 0 to 1023 instead of just 0 or 1.  I used pin A0 on the Arduino or PC0 on teh Atmega.  The available Atmega pins for analog are PC0-PC5.
 
-[!Circuit Diagram](/assets/circuit_diag.png)
+![Circuit Diagram](/assets/circuit_diag.png)
 
 ## Code Explanation
 
